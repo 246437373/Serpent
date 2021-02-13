@@ -1,4 +1,4 @@
-
+if not getgenv().MTAPIMutex then loadstring(game:HttpGet("https://raw.githubusercontent.com/246437373/Serpent/main/meta-api.lua", true))() end
 
 if getgenv().MTAPIMutex ~= nil then
     return
